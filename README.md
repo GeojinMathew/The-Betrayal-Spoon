@@ -8,7 +8,7 @@
 
 ### Team Members
 
-- Team Lead: Geojin Mathew - Saintgits College of Engineering
+- Member 1: Geojin Mathew - Saintgits College of Engineering
 - Member 2: Meeval Varghese - Saintgits College of Engineering
 
 ### Project Description
