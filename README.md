@@ -86,7 +86,7 @@ The three outcomes are:
 
 #### Screenshots
 
-![Screenshot1](images/code.png)
+![Screenshot1](IMG_20260913_091237.jpg.jpeg)
 
 Arduino IDE showing the main control code for the Betrayal Spoon.
 
