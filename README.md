@@ -86,11 +86,11 @@ The three outcomes are:
 
 #### Screenshots
 
-![Screenshot1](IMG_20260913_105350.jpg)
+![Screenshot1](IMG_20260913_105350.jpg.jpeg)
 
 Arduino IDE showing the main control code for the Betrayal Spoon.
 
-![Screenshot2](IMG_20260913_105408.jpg)
+![Screenshot2](IMG_20260913_105408.jpg.jpeg)
 
 Code section responsible for controlling the FN-M16P audio module and playing the corresponding sound effects.
 
@@ -112,17 +112,7 @@ Circuit diagram showing the connections between the ESP32, HC-SR04 ultrasonic se
 
 Hardware schematic showing the electrical connections used in the project.
 
-### Build Photos
-
-![Components](images/components.jpg)
-
-Main components used in the project, including the ESP32, ultrasonic sensor, servo motor, FN-M16P audio module, speaker, and supporting components.
-
-![Build](images/build-process.jpg)
-
-The assembly process showing the electronics, servo mechanism, and spoon being integrated into the handheld enclosure.
-
-![Final](images/final-project.jpg)
+![Final](IMG_20260913_091139.jpg.jpeg)
 
 The completed Betrayal Spoon with the electronics, spoon mechanism, ultrasonic sensor, and audio system assembled together.
 
