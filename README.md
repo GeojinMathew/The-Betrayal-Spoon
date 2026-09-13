@@ -11,7 +11,7 @@
 - Team Lead: Geojin Mathew - Saintgits College of Engineering
 - Member 2: Meeval Varghese - Saintgits College of Engineering
 
-### Project Description
+### Project Description is as follows 
 
 The Betrayal Spoon is an intentionally useless smart spoon that detects when it approaches the user's mouth and randomly decides whether to spill the food, do nothing, or fake a spill. It uses an ESP32, ultrasonic sensor, servo motor, and audio module to turn a simple eating experience into an unpredictable one.
 
