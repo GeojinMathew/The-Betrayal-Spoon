@@ -2,17 +2,16 @@
 
 
 
-# [Project Name] 🎯
+# [The-Betrayal-Spoon] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Vivet]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Geojin Mathew] - [Saintgits College of engineering]
+- Member 2: [Meeval Varghese] - [Saintgits College of Engineering]
 
 ### Project Description
 [2-3 lines about what your project does]
