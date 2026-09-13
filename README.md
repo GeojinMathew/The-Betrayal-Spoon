@@ -86,15 +86,11 @@ The three outcomes are:
 
 #### Screenshots
 
-![Screenshot1]()
+![Screenshot1](IMG_20260913_105350.jpg)
 
 Arduino IDE showing the main control code for the Betrayal Spoon.
 
-![Screenshot2](images/serial-monitor.png)
-
-Serial Monitor showing the ESP32 detecting distance and triggering the spoon mechanism.
-
-![Screenshot3](images/audio-code.png)
+![Screenshot2](IMG_20260913_105408.jpg)
 
 Code section responsible for controlling the FN-M16P audio module and playing the corresponding sound effects.
 
@@ -112,7 +108,7 @@ Workflow showing how the ultrasonic sensor, ESP32, servo motor, and audio module
 
 Circuit diagram showing the connections between the ESP32, HC-SR04 ultrasonic sensor, SG90 servo motor, and FN-M16P audio module.
 
-![Schematic]()
+![Schematic](schematic.jpeg.jpeg)
 
 Hardware schematic showing the electrical connections used in the project.
 
