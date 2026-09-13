@@ -108,7 +108,7 @@ Workflow showing how the ultrasonic sensor, ESP32, servo motor, and audio module
 
 #### Schematic & Circuit
 
-![Circuit]()
+![Circuit](circuit_diagram.jpeg.jpeg)
 
 Circuit diagram showing the connections between the ESP32, HC-SR04 ultrasonic sensor, SG90 servo motor, and FN-M16P audio module.
 
