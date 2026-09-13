@@ -1,102 +1,95 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-
-
-# [The-Betrayal-Spoon] 🎯
-
+# The Betrayal Spoon 🥄💀
 
 ## Basic Details
-### Team Name: [Vivet]
 
+### Team Name: Vivet
 
 ### Team Members
-- Member 1: [Geojin Mathew] - [Saintgits College of engineering]
-- Member 2: [Meeval Varghese] - [Saintgits College of Engineering]
+
+- Team Lead: Geojin Mathew - Saintgits College of Engineering
+- Member 2: Meeval Varghese - Saintgits College of Engineering
 
 ### Project Description
-[2-3 lines about what your project does]
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The Betrayal Spoon is an intentionally useless smart spoon that detects when it approaches the user's mouth and randomly decides whether to spill the food, do nothing, or fake a spill.
 
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Built using an ESP32, ultrasonic sensor, servo motor, and audio module, it turns a simple eating experience into an unpredictable one.
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
 
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
+### The Problem (that doesn't exist)
 
+People have it too easy while eating.
 
+Normal spoons are predictable, reliable, and boring. There is absolutely no reason for a spoon to betray you — so naturally, we decided to build one that does.
 
+---
+
+### The Solution (that nobody asked for)
+
+The Betrayal Spoon uses an HC-SR04 ultrasonic sensor to detect when the spoon is close to the user's mouth.
+
+Once the distance reaches approximately 10 cm, the ESP32 randomly chooses one of three outcomes:
+
+- 💀 **Complete Spill** — The spoon rotates and spills the food.
+- 😐 **No Spill** — The spoon does nothing and behaves normally.
+- 😈 **Fake Spill** — The spoon makes a small movement to make the user think it will spill, but doesn't actually spill.
+
+A corresponding meme sound is also played through the speaker depending on the selected outcome.
+
+---
+
+## Technical Details
+
+### Technologies/Components Used
+
+### For Software:
+
+- Arduino C/C++
+- Arduino IDE
+- ESP32 Arduino Core
+- ESP32Servo Library
+- UART communication
+- FN-M16P MP3 command protocol
+
+### For Hardware:
+
+- ESP32
+- HC-SR04 Ultrasonic Sensor
+- SG90 Servo Motor
+- FN-M16P MP3 Audio Module
+- 8Ω Speaker
+- MicroSD Card
+- Spoon
+- Custom handheld enclosure/mechanical assembly
+- Resistors
+- Jumper wires
+- 5V power supply
+
+---
+
+### Pin Configuration
+
+#### HC-SR04 → ESP32
+
+| HC-SR04 | ESP32 |
+|---|---|
+| VCC | 5V |
+| GND | GND |
+| TRIG | GPIO 5 |
+| ECHO | GPIO 18 |
+
+The ECHO signal is connected through a voltage divider:
+
+```text
+HC-SR04 ECHO
+     │
+    1kΩ
+     │
+     ├──────── GPIO 18
+     │
+    2kΩ
+     │
+    GND
